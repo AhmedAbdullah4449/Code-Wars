@@ -11,4 +11,4 @@ function alphanumeric(string){
   const alphanumericRegex = /^[A-Za-z0-9]+$/
   return alphanumericRegex.test(string)
 }
-console.log(alphanumeric("hello"))
+console.log(alphanumeric("hello@"))
